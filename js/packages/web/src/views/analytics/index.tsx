@@ -1,6 +1,9 @@
 import React, { Dispatch, SetStateAction, useState } from 'react';
 import { Layout, Button, Col, Spin } from 'antd';
 import { useMeta } from '../../contexts';
+import { ChartOptions } from 'chart.js';
+
+
 import {
   AuctionManagerV1,
   AuctionManagerV2,
@@ -238,7 +241,7 @@ const MemoizedBar = React.memo(
       ],
     };
 
-    const histoOptions = {
+    const histoOptions: ChartOptions<any> = {
       scales: {
         yAxes: [
           {

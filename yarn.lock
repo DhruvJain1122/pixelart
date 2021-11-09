@@ -2,3 +2,7 @@
 # yarn lockfile v1
 
 
+"@types/offscreencanvas@^2019.6.4":
+  "integrity" "sha512-u8SAgdZ8ROtkTF+mfZGOscl0or6BSj9A4g37e6nvxDc+YB/oDut0wHkK2PBBiC2bNR8TS0CPV+1gAk4fNisr1Q=="
+  "resolved" "https://registry.npmjs.org/@types/offscreencanvas/-/offscreencanvas-2019.6.4.tgz"
+  "version" "2019.6.4"
